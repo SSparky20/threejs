@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/prism(1).css">
     <title>Ziggity Zachity</title>
 </head>
 <body>
@@ -23,21 +24,40 @@
         <div class="child">
             <div class="texts">
                 <h2>Look at this</h2>
-                <p>
-                </p>
+                <pre class="language-javascript">
+                    <code class="language-javascript">
+// Create the cube 
+const cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
+const cubeMaterial = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
+cube.castShadow = true; // Enable shadow casting for the cube
+scene.add(cube);
+cube.position.set(0, 1, 0);
+                    </code>
+                </pre>
+            
             </div>
         </div>
         <div class="child">
             <div class="texts">
                 <h2>Look at this</h2>
-                <p>
-                </p>
+                <pre class="language-javascript">
+                    <code class="language-javascript">
+const knotGeometry = new THREE.TorusKnotGeometry(100, 10, 200, 20);
+const knotMaterial = new THREE.MeshStandardMaterial({ color: 0x7133ff });
+const knot = new THREE.Mesh(knotGeometry, knotMaterial);
+knot.castShadow = true; // Enable shadow casting for the knot
+scene.add(knot);
+knot.position.set(0, 0, -300);
+                    </code>
+                </pre>
             </div>
         </div>
 
     </div>
 
     <script type="module" src="js/mainpage.js"></script>
+    <script src="../js/prism(1).js"></script>
 
 </body>
 </html>
