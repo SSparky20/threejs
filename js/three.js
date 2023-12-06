@@ -47,7 +47,7 @@ let scene, camera, renderer;
         
 
         let loader = new GLTFLoader();
-        loader.load('scene.gltf', function(gltf){
+        loader.load('../scene.gltf', function(gltf){
           let car = gltf.scene.children[0];
           car.scale.set(0.5,0.5,0.5);
           scene.add(gltf.scene);
