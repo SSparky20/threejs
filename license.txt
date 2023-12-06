@@ -1,11 +1,11 @@
 Model Information:
-* title:	(FREE) 1972 Datsun 240k GT
-* source:	https://sketchfab.com/3d-models/free-1972-datsun-240k-gt-b2303a552b444e5b8637fdf5169b41cb
-* author:	Karol Miklas (https://sketchfab.com/karolmiklas)
+* title:	Plague Mask
+* source:	https://sketchfab.com/3d-models/plague-mask-a54d7994219343a28b03b1206b4591f2
+* author:	J0Y (https://sketchfab.com/lloydrostek)
 
 Model License:
-* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
-* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "(FREE) 1972 Datsun 240k GT" (https://sketchfab.com/3d-models/free-1972-datsun-240k-gt-b2303a552b444e5b8637fdf5169b41cb) by Karol Miklas (https://sketchfab.com/karolmiklas) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+This work is based on "Plague Mask" (https://sketchfab.com/3d-models/plague-mask-a54d7994219343a28b03b1206b4591f2) by J0Y (https://sketchfab.com/lloydrostek) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
