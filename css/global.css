@@ -7,7 +7,6 @@ body {
 
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
 }
 
 .topnav a {
@@ -78,5 +77,6 @@ canvas {
     top: 0;
     left: 0;
     z-index: -1; /* Place the canvas behind other elements */
+    
 }
     

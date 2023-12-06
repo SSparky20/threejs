@@ -12,7 +12,7 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-// Create the cube
+// Create the cube 
 const cubeGeometry = new THREE.BoxGeometry(1, 1, 1);
 const cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
@@ -61,6 +61,7 @@ function animate() {
 
 // Initial call to handle the initial window size
 handleWindowResize();
+
 
 // Start the animation
 animate();
