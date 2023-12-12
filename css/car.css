@@ -1,3 +1,21 @@
 .topnav {
     background-color: black;
 }
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.audio{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+}
+
+audio{
+    margin-left: auto;
+    margin-right: auto;
+}

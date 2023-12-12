@@ -5,7 +5,7 @@ const scene = new THREE.Scene();
 
 // Create the camera
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 5;
+camera.position.z = 10;
 
 // Create the renderer
 const renderer = new THREE.WebGLRenderer();
@@ -24,8 +24,8 @@ function createRandomCube() {
     const cubeGeometry = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
     const cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
     const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
-    cube.position.x = Math.random() * 10 - 5; // Random x coordinate between -5 and 5
-    cube.position.y = Math.random() * 10 - 5; // Random y coordinate between -5 and 5
+    cube.position.x = Math.random() * 10 - 4; // Random x coordinate between -5 and 5
+    cube.position.y = Math.random() * 10 - 4; // Random y coordinate between -5 and 5
     scene.add(cube);
     return cube; // Return the cube so we can track it
   }
